@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+*.egg-info/
+
+# CDK
+infrastructure/cdk.out/
+infrastructure/.venv/
+
+# AWS / secrets
+*.env
+!*.env.example
+credentials.json
+.aws-sam/
+
+# Lambda build artifacts
+lambda/**/package/
+*.zip
+
+# OS
+.DS_Store
